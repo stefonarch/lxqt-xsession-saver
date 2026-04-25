@@ -1,0 +1,11 @@
+#!/bin/bash
+# lxqt-xsessionsaver module
+
+# Restore X11 session
+python /usr/share/lxqt/xsessionsaver-module/sessionctrl.py -r
+
+# Save session every 3 minutes
+while true; do
+  sleep 180
+  python /usr/share/lxqt/xsessionsaver-module/sessionctrl.py -r
+done

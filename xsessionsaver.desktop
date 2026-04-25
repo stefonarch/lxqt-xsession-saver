@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=lxqt-xsessionsaver
+Icon=system-save-session
+Categories=Settings;DesktopSettings;Qt;LXQt;
+OnlyShowIn=LXQt;
+
+
+Name=XSession Saver
+GenericName=Save and restore an LXQt X11 session
+Comment=Configure global shortcut keys (X11)
